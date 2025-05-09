@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#050609"
+    android:background="@drawable/splash_bg"
     android:orientation="vertical"
     tools:context=".spalsh.Intro1Activity">
 
@@ -29,13 +29,7 @@
                 android:adjustViewBounds="true"
                 android:src="@drawable/img_intro2" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center"
-                android:layout_marginHorizontal="@dimen/_40sdp"
-                android:adjustViewBounds="true"
-                android:src="@drawable/img_intro_txt2" />
+
 
             <FrameLayout
                 android:id="@+id/frameNative"

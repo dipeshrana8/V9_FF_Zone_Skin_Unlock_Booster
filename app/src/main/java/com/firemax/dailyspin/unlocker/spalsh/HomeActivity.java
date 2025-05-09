@@ -31,7 +31,7 @@ public class HomeActivity extends BaseActivity {
         navMap.put(binding.btnAllSkin, AllSkinsActivity.class);
         navMap.put(binding.btnCalculator, BasicCalActivity.class);
         navMap.put(binding.btnFreeDiamonds, FreeDiamondsActivity.class);
-        navMap.put(binding.btnSettings, A6_SettingActivity.class);
+        navMap.put(binding.btnSettings, A6_StartApp.class);
 
 
         Map<View, Runnable> actionMap = new HashMap<>();

@@ -4,10 +4,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E1E1E
-"
+    android:background="@drawable/splash_bg"
     android:orientation="vertical"
-    tools:context=".spalsh.A6_SettingActivity">
+    tools:context=".spalsh.A6_StartApp">
 
     <include
         android:id="@+id/toolbarLayout"
@@ -36,37 +35,72 @@
 
                 android:minHeight="@dimen/_180sdp" />
 
-            <ImageView
-                android:id="@+id/btnRateApp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:adjustViewBounds="true"
-                android:src="@drawable/img_st_rate_app" />
 
-            <ImageView
-                android:id="@+id/btnShareApp"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:src="@drawable/img_st_share_app" />
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_10sdp">
 
-            <ImageView
-                android:id="@+id/btnPrivacyPolicy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:src="@drawable/img_st_privacy" />
+                <ImageView
+                    android:id="@+id/imgBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_setting_image" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!-- Row 1 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:id="@+id/btnStartApp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+
+                        <View
+                            android:id="@+id/btnRate"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <View
+                            android:id="@+id/btnPrivacy"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                        <View
+                            android:id="@+id/btnShareApp"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/transparent" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
 
 
         </LinearLayout>

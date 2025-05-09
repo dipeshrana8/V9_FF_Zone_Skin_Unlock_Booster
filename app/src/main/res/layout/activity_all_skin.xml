@@ -4,8 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1E1E1E
-"
+    android:background="@drawable/splash_bg"
     android:elevation="@dimen/_2sdp"
     android:orientation="vertical"
     tools:context=".spalsh.AllSkinsActivity">
@@ -24,6 +23,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+
             android:orientation="vertical">
 
             <FrameLayout
@@ -31,65 +32,64 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginHorizontal="@dimen/_10sdp"
                 android:layout_marginVertical="@dimen/_5sdp"
                 android:minHeight="@dimen/_180sdp"
                 android:visibility="visible" />
 
             <ImageView
+                android:id="@+id/btnDailyDiamondGuide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/_5sdp"
+
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_daily_diamong_guide" />
+
+            <ImageView
                 android:id="@+id/btnCharacter"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
+
                 android:adjustViewBounds="true"
-                android:src="@drawable/img_all_character" />
+                android:src="@drawable/img_character" />
 
             <ImageView
-                android:id="@+id/btnPet"
-
+                android:id="@+id/btnGlooWall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:adjustViewBounds="true"
-                android:src="@drawable/img_all_pet" />
 
-            <ImageView
-                android:id="@+id/btnWeapons"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
                 android:adjustViewBounds="true"
-                android:src="@drawable/img_all_weapon" />
+                android:src="@drawable/img_gloo_wall" />
 
             <ImageView
                 android:id="@+id/btnParachute"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
+
                 android:adjustViewBounds="true"
-                android:src="@drawable/img_all_parachutes" />
+                android:src="@drawable/img_parachutes" />
 
             <ImageView
-                android:id="@+id/btnEmotes"
+                android:id="@+id/btnPet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
+
                 android:adjustViewBounds="true"
-                android:src="@drawable/img_all_emotes" />
+                android:src="@drawable/img_pet" />
 
             <ImageView
                 android:id="@+id/btnVehicle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_5sdp"
-                android:layout_marginStart="@dimen/_20sdp"
+
                 android:adjustViewBounds="true"
-                android:src="@drawable/img_all_vehicle" />
+                android:src="@drawable/img_vehicle" />
 
 
         </LinearLayout>

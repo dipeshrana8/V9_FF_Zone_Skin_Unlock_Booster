@@ -28,6 +28,12 @@
           "imagePath": "char/img_char_4.webp"
         },
         {
+          "name": "LUNA",
+          "description": "Placeholder character.\nDetails not available in provided data.\nSuitable for various strategies.",
+          "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
+          "imagePath": "char/placeholder_char.webp"
+        },
+        {
           "name": "Olivia",
           "description": "Field medic with enhanced revive abilities.\nTeammates revive with more HP.\nPerfect for support roles.",
           "ability": "Healing Touch: More HP after revive\nQuick Nurse: Faster revive speed\nMedical Boost: Boosts medkit effect",
@@ -54,7 +60,7 @@
         {
           "name": "Santino",
           "description": "Fashion icon with teleport dash.\nLeaves a dummy and teleports back.\nGreat for ambush or escape.",
-          "ability": "Rewind Step: Create clone and return\nFlash Move: Brief invulnerability\nStyle Shift: Clone explodes on swap",
+          "ability": "Rewind Step: Create clone and return\nFlash Move: Brief invulnerability\nStyle Step: Clone explodes on swap",
           "imagePath": "char/img_char_9.webp"
         },
         {
@@ -76,16 +82,80 @@
           "imagePath": "char/img_char_12.webp"
         },
         {
-          "name": "Tatsuya",
-          "description": "Street racer with speed burst.\nShort dash in movement direction.\nIdeal for dodging and chasing.",
-          "ability": "Rebel Rush: Quick forward dash\nDrift Master: Boosts movement after dash\nNitro Sync: Shorter dash cooldown",
-          "imagePath": "char/img_char_13.webp"
-        },
-        {
           "name": "Wukong",
           "description": "Monkey King with camouflage power.\nTransforms into a bush for stealth.\nGreat for ambush tactics.",
           "ability": "Camouflage: Become a bush for 15s\nSurprise Strike: Bonus damage from bush\nBush Reset: Cooldown resets on kill",
           "imagePath": "char/img_char_14.webp"
+        }
+      ]
+    },
+    {
+      "name": "Weapons",
+      "items": [
+        {
+          "name": "Death Incoming",
+          "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
+          "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
+          "imagePath": "weapon/placeholder_gloo_wall_1.webp"
+        },
+        {
+          "name": "Cute Mera",
+          "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
+          "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
+          "imagePath": "weapon/placeholder_gloo_wall_2.webp"
+        },
+        {
+          "name": "Sonic Eye",
+          "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
+          "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
+          "imagePath": "weapon/placeholder_gloo_wall_3.webp"
+        },
+        {
+          "name": "Dragon Seal",
+          "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
+          "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
+          "imagePath": "weapon/placeholder_gloo_wall_4.webp"
+        }
+      ]
+    },
+    {
+      "name": "Parachute",
+      "items": [
+        {
+          "name": "Flame Draco",
+          "description": "Placeholder parachute.\nEnhances glide control with a fiery theme.\nGreat for stylish landings.",
+          "ability": "Smooth Glide: Improved maneuverability\nFlame Burst: Slightly distracts enemies\nSafe Drop: Reduces landing damage",
+          "imagePath": "parachutes/placeholder_para_1.webp"
+        },
+        {
+          "name": "Wings of the Devil",
+          "description": "Placeholder parachute.\nBoosts landing speed with a dark theme.\nIdeal for rapid deployment.",
+          "ability": "Thunder Drop: Faster descent speed\nShock Aura: Brief enemy disorientation on landing\nQuick Release: Faster parachute cut",
+          "imagePath": "parachutes/placeholder_para_2.webp"
+        },
+        {
+          "name": "Superstar",
+          "description": "Placeholder parachute.\nBoosts team morale with a vibrant design.\nGreat for squad coordination.",
+          "ability": "Dawn Boost: Slight team morale increase\nBright Flare: Increases visibility briefly\nSoft Landing: Reduces fall damage",
+          "imagePath": "parachutes/placeholder_para_3.webp"
+        },
+        {
+          "name": "The Maniacs",
+          "description": "Placeholder parachute.\nEnhances speed with an aggressive theme.\nSuited for bold entries.",
+          "ability": "Crimson Rush: Increased glide speed\nThreat Signal: Draws enemy attention\nImpact Shield: Minor damage resistance on landing",
+          "imagePath": "parachutes/placeholder_para_4.webp"
+        },
+        {
+          "name": "Burning Lily",
+          "description": "Placeholder parachute.\nImproves glide precision with a fiery design.\nPerfect for tactical drops.",
+          "ability": "Aqua Flow: Enhanced glide control\nStealth Drop: Reduced detection on landing\nCool Descent: Slight stamina recovery",
+          "imagePath": "parachutes/placeholder_para_5.webp"
+        },
+        {
+          "name": "Lapis Jubilee",
+          "description": "Placeholder parachute.\nMarks landing zone with a glowing effect.\nGreat for aggressive plays.",
+          "ability": "Blaze Entry: Creates small fire zone on landing\nHeat Shield: Brief damage resistance\nFlare Mark: Highlights landing spot",
+          "imagePath": "parachutes/placeholder_para_6.webp"
         }
       ]
     },
@@ -165,157 +235,33 @@
           "imagePath": "pet/img_pet_12.webp"
         },
         {
-          "name": "Night Panther",
-          "description": "Stealthy feline with enhanced detection.\nSpots enemies in low visibility.\nSuited for scouting or ambush.",
-          "ability": "Shadow Sight: Reveals enemies in dark areas\nSilent Prowl: Reduces detection range\nNight Strike: Bonus damage in low light",
-          "imagePath": "pet/img_pet_13.webp"
-        },
-        {
           "name": "Ottero",
           "description": "Playful otter companion.\nBoosts recovery during water-based movement.\nSupports mobility or recovery.",
           "ability": "Aqua Glide: Faster movement in water\nSwift Heal: Slight HP regen near water\nDive Boost: Reduced fall damage near water",
           "imagePath": "pet/img_pet_14.webp"
+        },
+        {
+          "name": "Shiba",
+          "description": "Placeholder pet.\nLoyal companion with unique abilities.\nSupports various strategies.",
+          "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
+          "imagePath": "pet/placeholder_pet_1.webp"
+        },
+        {
+          "name": "Spirit Fox",
+          "description": "Placeholder pet.\nMystical companion with unique abilities.\nSupports various strategies.",
+          "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
+          "imagePath": "pet/placeholder_pet_2.webp"
+        },
+        {
+          "name": "Yeti",
+          "description": "Placeholder pet.\nPowerful companion with unique abilities.\nSupports various strategies.",
+          "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
+          "imagePath": "pet/placeholder_pet_3.webp"
         }
       ]
     },
     {
-      "name": "Weapons",
-      "items": [
-        {
-          "name": "AN94",
-          "description": "Assault rifle with burst-fire capability.\nBalanced for mid-range fights.\nReliable and accurate.",
-          "ability": "Recoil Control: Improved stability\nBurst Boost: Faster burst fire rate\nAmmo Saver: Reduced bullet usage",
-          "imagePath": "weapon/img_weapons_1.webp"
-        },
-        {
-          "name": "AWM",
-          "description": "High-powered sniper rifle.\nExtreme damage and range.\nGreat for long-distance takedowns.",
-          "ability": "Deadshot: Increased headshot damage\nSilent Scope: Reduced firing sound\nQuick Chamber: Faster reload",
-          "imagePath": "weapon/img_weapons_2.webp"
-        },
-        {
-          "name": "Bizon",
-          "description": "SMG with high magazine capacity.\nExcellent for close-range encounters.\nFast fire rate.",
-          "ability": "Bullet Storm: Increases ROF\nAmmo Load: Extra bullets\nStagger Shot: Slows enemy movement",
-          "imagePath": "weapon/img_weapons_3.webp"
-        },
-        {
-          "name": "CG15",
-          "description": "Smart burst rifle with charging mechanic.\nGreat for ambushes.\nUnique futuristic design.",
-          "ability": "Charged Shot: High burst damage\nPrecision Core: Increased accuracy\nQuick Draw: Faster aim time",
-          "imagePath": "weapon/img_weapons_4.webp"
-        },
-        {
-          "name": "FGL-24",
-          "description": "High-tech grenade launcher.\nDeals splash damage over distance.\nBest for area control.",
-          "ability": "Arc Boost: Longer range\nExplosive Rounds: Increased blast\nTactical Reload: Faster reload speed",
-          "imagePath": "weapon/img_weapons_5.webp"
-        },
-        {
-          "name": "Flamethrower",
-          "description": "Close-range fire-based weapon.\nBurns enemies over time.\nClears tight spaces effectively.",
-          "ability": "Inferno: Burn damage over time\nScorch Path: Leaves fire trail\nPressure Boost: Increases range",
-          "imagePath": "weapon/img_weapons_6.webp"
-        },
-        {
-          "name": "Gatling",
-          "description": "Heavy weapon with massive fire rate.\nSuppresses enemies with continuous fire.\nRequires wind-up.",
-          "ability": "Overheat Shield: Delay overheat\nSpray Mastery: Wider suppression\nAmmo Link: Extra capacity",
-          "imagePath": "weapon/img_weapons_7.webp"
-        },
-        {
-          "name": "Gloo Melter",
-          "description": "Device to melt enemy Gloo Walls.\nDestroys cover instantly.\nGreat counter tool.",
-          "ability": "Overheat: Burns Gloo over time\nInstant Melt: One-touch destroy\nDisruptor: Slows nearby enemies",
-          "imagePath": "weapon/img_weapons_8.webp"
-        },
-        {
-          "name": "Gloo Wall",
-          "description": "Deployable instant cover.\nBlocks bullets and vision.\nEssential for defense.",
-          "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
-          "imagePath": "weapon/img_weapons_9.webp"
-        },
-        {
-          "name": "Grenade",
-          "description": "Explosive throwable device.\nUsed to deal area damage.\nEffective for clearing cover.",
-          "ability": "Blast Radius: Wider explosion\nQuick Throw: Reduced throw delay\nShrapnel: Causes bleed effect",
-          "imagePath": "weapon/img_weapons_10.webp"
-        },
-        {
-          "name": "Katana",
-          "description": "Sharp melee weapon.\nHigh damage in close range.\nStylish finish moves.",
-          "ability": "Blade Dance: Faster swings\nCounter Slash: Reflects some damage\nSilent Kill: No sound kills",
-          "imagePath": "weapon/img_weapons_11.webp"
-        },
-        {
-          "name": "Pan",
-          "description": "Melee weapon with surprising power.\nUsed for close combat or deflection.\nIconic and fun.",
-          "ability": "Pan Bash: Increased melee damage\nDeflect: Blocks bullets from behind\nRinging Hit: Dazes enemies",
-          "imagePath": "weapon/img_weapons_12.webp"
-        },
-        {
-          "name": "Trogon",
-          "description": "Shotgun with explosive ammo.\nDevastating at close range.\nGreat for clearing tight spaces.",
-          "ability": "Explosive Shells: AoE impact\nReload Boost: Faster reload speed\nKnockback: Pushes enemies back",
-          "imagePath": "weapon/img_weapons_13.webp"
-        },
-        {
-          "name": "Shield Gun",
-          "description": "Hybrid firearm with built-in shield.\nProvides defense while shooting.\nGood for frontal combat.",
-          "ability": "Shield Charge: Absorbs damage\nTactical Block: Reduces enemy DPS\nGuardian Mode: Boosts team armor",
-          "imagePath": "weapon/img_weapons_14.webp"
-        }
-      ]
-    },
-    {
-      "name": "Parachute",
-      "items": [
-        {
-          "name": "Rainbow Drift",
-          "description": "Colorful parachute with vibrant design.\nEnhances glide control.\nGreat for stylish landings.",
-          "ability": "Smooth Glide: Improved maneuverability\nColor Burst: Slightly distracts enemies\nSafe Drop: Reduces landing damage",
-          "imagePath": "parachutes/img_para_1.webp"
-        },
-        {
-          "name": "Sky Bolt",
-          "description": "Futuristic parachute with lightning theme.\nBoosts landing speed.\nIdeal for rapid deployment.",
-          "ability": "Thunder Drop: Faster descent speed\nShock Aura: Brief enemy disorientation on landing\nQuick Release: Faster parachute cut",
-          "imagePath": "parachutes/img_para_2.webp"
-        },
-        {
-          "name": "Sunrise Pop",
-          "description": "Bright parachute with dawn-inspired colors.\nBoosts team morale on landing.\nGreat for squad coordination.",
-          "ability": "Dawn Boost: Slight team morale increase\nBright Flare: Increases visibility briefly\nSoft Landing: Reduces fall damage",
-          "imagePath": "parachutes/img_para_3.webp"
-        },
-        {
-          "name": "Red Glide",
-          "description": "Aggressive red-themed parachute.\nEnhances speed and visibility.\nSuited for bold entries.",
-          "ability": "Crimson Rush: Increased glide speed\nThreat Signal: Draws enemy attention\nImpact Shield: Minor damage resistance on landing",
-          "imagePath": "parachutes/img_para_4.webp"
-        },
-        {
-          "name": "Blue Rush",
-          "description": "Cool blue parachute with sleek design.\nImproves glide precision.\nPerfect for tactical drops.",
-          "ability": "Aqua Flow: Enhanced glide control\nStealth Drop: Reduced detection on landing\nCool Descent: Slight stamina recovery",
-          "imagePath": "parachutes/img_para_5.webp"
-        },
-        {
-          "name": "Flare Drop",
-          "description": "Fiery parachute with glowing effects.\nMarks landing zone with flair.\nGreat for aggressive plays.",
-          "ability": "Blaze Entry: Creates small fire zone on landing\nHeat Shield: Brief damage resistance\nFlare Mark: Highlights landing spot",
-          "imagePath": "parachutes/img_para_6.webp"
-        },
-        {
-          "name": "Cloud Fall",
-          "description": "Soft cloud-themed parachute.\nReduces fall damage.\nIdeal for safe landings.",
-          "ability": "Misty Descent: Greatly reduces fall damage\nCloud Cover: Brief concealment on landing\nSoft Touch: Slight HP regen on landing",
-          "imagePath": "parachutes/img_para_7.webp"
-        }
-      ]
-    },
-    {
-      "name": "Normal",
+      "name": "Rare",
       "items": [
         {
           "name": "Aim Fire",
@@ -358,12 +304,7 @@
           "description": "Flapping arms and clucking like a chicken.\nMocking and humorous.\nGreat for distracting opponents.",
           "ability": "Mock Move: Confuses enemies\nFeather Shield: Minor damage reduction\nCluck Boost: Team speed up",
           "imagePath": "et_normal/img_normal_7.webp"
-        }
-      ]
-    },
-    {
-      "name": "Rare",
-      "items": [
+        },
         {
           "name": "Dab",
           "description": "Quick dab motion popular in dances.\nModern celebration style.\nUsed after successful plays.",
@@ -405,53 +346,6 @@
           "description": "Throwing money in the air.\nFlashy and showy animation.\nCelebrates big wins or high scores.",
           "ability": "Wealth Boost: Temporary gold gain\nAttraction: Enemies drawn to you\nHigh Roller: Increases item drop chance",
           "imagePath": "et_rare/img_rare_7.webp"
-        },
-        {
-          "name": "Tea Time",
-          "description": "Sitting calmly sipping tea.\nSarcastic and classy.\nPerfect after a clutch play.",
-          "ability": "Chill Mode: Restores stamina\nComposure: Reduces skill cooldowns\nMock Calm: Taunts enemies slightly",
-          "imagePath": "et_rare/img_rare_8.webp"
-        }
-      ]
-    },
-    {
-      "name": "Advance",
-      "items": [
-        {
-          "name": "Mind It",
-          "description": "Finger-wagging with stern expression.\nUsed to mock or warn opponents.\nComedic and iconic.",
-          "ability": "Warning Shot: Slight damage boost\nMock Shield: Minor damage reduction\nAlert Stance: Boosts reaction time",
-          "imagePath": "et_special/img_super_et_1.webp"
-        },
-        {
-          "name": "Shuffling",
-          "description": "Stylish footwork in a dance shuffle.\nEnergetic and rhythmic.\nUsed during celebrations.",
-          "ability": "Dance Flow: Increases dodge rate\nBeat Buff: Boosts nearby ally morale\nStep Up: Short sprint speed boost",
-          "imagePath": "et_special/img_super_et_2.webp"
-        },
-        {
-          "name": "Soul Shaking",
-          "description": "Dynamic dance with intense energy.\nHypes up the team with rhythmic moves.\nGreat for post-victory celebrations.",
-          "ability": "Energy Surge: Boosts team stamina\nVibe Boost: Increases movement speed briefly\nHype Wave: Enhances nearby ally damage",
-          "imagePath": "et_special/img_super_et_3.webp"
-        },
-        {
-          "name": "Switching Steps",
-          "description": "Quick footwork with stylish steps.\nConfuses enemies with rapid movement.\nIdeal for tactical taunts.",
-          "ability": "Step Dodge: Increases evasion briefly\nRhythm Shift: Reduces enemy accuracy\nQuick Step: Short sprint speed boost",
-          "imagePath": "et_special/img_super_et_4.webp"
-        },
-        {
-          "name": "The Swan",
-          "description": "Elegant dance pose like a ballet swan.\nGraceful and refined.\nOften used for flair.",
-          "ability": "Grace Aura: Reduces incoming damage\nPoise: Boosts aim stability\nFlow Motion: Increases mobility briefly",
-          "imagePath": "et_special/img_super_et_5.webp"
-        },
-        {
-          "name": "Threaten",
-          "description": "Intimidating gesture to provoke enemies.\nDraws attention and weakens foes.\nPerfect for aggressive plays.",
-          "ability": "Fear Stance: Reduces enemy defense briefly\nAggro Draw: Enemies target you\nIntimidate: Lowers enemy morale",
-          "imagePath": "et_special/img_super_et_6.webp"
         },
         {
           "name": "Top DJ",
@@ -511,47 +405,12 @@
           "description": "High-performance car for rapid movement.\nFast with low defense.\nSuited for aggressive plays.",
           "ability": "Overdrive: Extreme speed boost\nSleek Design: Reduced drag\nDrift Master: Enhanced cornering",
           "imagePath": "vehicle/img_vehicle_7.webp"
-        }
-      ]
-    },
-    {
-      "name": "Bundles",
-      "items": [
-        {
-          "name": "Drago",
-          "description": "Stylish and sleek design.\nRepresents elegance and speed (likely inspired by Diano).\nEnhances speed and aim.",
-          "ability": "Speed Boost: Increases movement speed\nSleek Frame: Reduces recoil\nGraceful Aim: Improved aim stability",
-          "imagePath": "bundel/img_bundel_1.webp"
         },
         {
-          "name": "Cobra",
-          "description": "Fierce and venomous look.\nRepresents stealth and precision.\nUsed for quiet takedowns.",
-          "ability": "Venomous Strike: Adds poison effect\nSilent Approach: Reduces detection range\nPoison Cloud: Area damage over time",
-          "imagePath": "bundel/img_bundel_2.webp"
-        },
-        {
-          "name": "Hip Hop",
-          "description": "Cool and laid-back style.\nRepresents rhythm and fun.\nUsed to express confidence.",
-          "ability": "Flow Boost: Increases movement speed\nBeat Boost: Shortens cooldowns\nGroove Boost: Increases reload speed",
-          "imagePath": "bundel/img_bundel_3.webp"
-        },
-        {
-          "name": "Joker",
-          "description": "Mischievous and chaotic look.\nRepresents unpredictability.\nUsed to disorient enemies.",
-          "ability": "Laughing Gas: Reduces enemy accuracy\nChaos Aura: Disorients nearby enemies\nSurprise Attack: Increased crit damage",
-          "imagePath": "bundel/img_bundel_4.webp"
-        },
-        {
-          "name": "Green Criminal",
-          "description": "Dark and menacing look with green accents.\nRepresents rebellion and cunning.\nUsed to strike fear.",
-          "ability": "Criminal Tactics: Increases stealth damage\nPoison Aura: Deals damage over time\nDirty Deal: Extra loot drops",
-          "imagePath": "bundel/img_bundel_5.webp"
-        },
-        {
-          "name": "Red Criminal",
-          "description": "Red-themed criminal design.\nRepresents aggression and power.\nUsed to dominate enemies.",
-          "ability": "Blood Rush: Increased attack power\nHeat Vision: Temporarily increases range\nRampage: Boosts damage after a kill",
-          "imagePath": "bundel/img_bundel_6.webp"
+          "name": "Vintage Car",
+          "description": "Placeholder vehicle.\nClassic design with moderate speed and durability.\nSuitable for stylish transport.",
+          "ability": "Classic Frame: Moderate vehicle HP\nSmooth Ride: Improved handling\nRetro Boost: Slight speed increase",
+          "imagePath": "vehicle/placeholder_vehicle_1.webp"
         }
       ]
     },
@@ -571,16 +430,16 @@
           "imagePath": "maps/img_map_2.webp"
         },
         {
-          "name": "Purgatory",
-          "description": "Mixed terrain with water and hills.\nIdeal for stealth and ambush tactics.\nFeatures dense foliage and elevation.",
-          "ability": "Foliage Cover: Reduced detection in grassy areas\nAmbush Advantage: Bonus damage from elevated positions\nWater Glide: Faster movement in water",
-          "imagePath": "maps/img_map_3.webp"
-        },
-        {
           "name": "Alpine",
           "description": "Snowy map with verticality.\nFavors mobility and scouting strategies.\nCold environment with urban and open areas.",
           "ability": "Snow Camouflage: Reduced visibility in snowy areas\nVertical Edge: Faster climbing on cliffs\nFrost Resistance: Reduced zone damage in cold areas",
           "imagePath": "maps/img_map_4.webp"
+        },
+        {
+          "name": "Purgatory",
+          "description": "Mixed terrain with water and hills.\nIdeal for stealth and ambush tactics.\nFeatures dense foliage and elevation.",
+          "ability": "Foliage Cover: Reduced detection in grassy areas\nAmbush Advantage: Bonus damage from elevated positions\nWater Glide: Faster movement in water",
+          "imagePath": "maps/img_map_3.webp"
         }
       ]
     }

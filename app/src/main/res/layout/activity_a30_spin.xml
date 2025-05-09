@@ -4,7 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#050609"
+    android:background="@drawable/splash_bg"
     android:orientation="vertical"
     tools:context=".spalsh.SpinActivity">
 
@@ -121,11 +121,10 @@
 
                     <ImageView
                         android:id="@+id/ivArrow"
-                        android:layout_width="@dimen/_40sdp"
-                        android:layout_height="@dimen/_40sdp"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="@dimen/_45sdp"
 
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="@dimen/_minus1sdp"
                         android:adjustViewBounds="true"
                         android:src="@drawable/img_spin_arrow" />
 

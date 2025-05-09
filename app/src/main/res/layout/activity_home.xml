@@ -4,10 +4,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#050609"
+    android:background="@drawable/splash_bg"
     android:orientation="vertical"
     tools:context=".spalsh.HomeActivity">
 
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/homeplate_font"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Main HUb"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,31 +47,28 @@
                 android:layout_marginVertical="@dimen/_5sdp"
 
                 android:minHeight="@dimen/_180sdp"
-                android:visibility="gone" />
+                android:visibility="visible" />
 
             <ImageView
-                android:id="@+id/btnGetDiamond"
+                android:id="@+id/btnDiamondGuide"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_5sdp"
                 android:adjustViewBounds="true"
-                android:background="@drawable/bg_country_unselect"
-                android:backgroundTint="#050609"
-                android:elevation="@dimen/_3sdp"
-                android:padding="@dimen/_20sdp"
-                android:src="@drawable/img_home_free_diamond_guide"
+
+                android:src="@drawable/img_diamond_guide"
                 android:visibility="visible" />
 
-            <TextView
+            <ImageView
+                android:id="@+id/btnFreeDiamond"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
                 android:layout_marginVertical="@dimen/_10sdp"
-                android:fontFamily="@font/homeplate_font"
-                android:gravity="center"
-                android:text="All Features"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp" />
+                android:adjustViewBounds="true"
+
+
+                android:src="@drawable/img_free_diamond"
+                android:visibility="visible" />
 
 
             <FrameLayout
@@ -81,13 +95,6 @@
                         android:orientation="horizontal">
 
                         <View
-                            android:id="@+id/btnAllSkin"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="@android:color/transparent" />
-
-                        <View
                             android:id="@+id/btnCalculator"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
@@ -95,11 +102,12 @@
                             android:background="@android:color/transparent" />
 
                         <View
-                            android:id="@+id/btnMap"
+                            android:id="@+id/btnRareEmotes"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:background="@android:color/transparent" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -109,25 +117,19 @@
                         android:orientation="horizontal">
 
                         <View
-                            android:id="@+id/btnBundle"
+                            android:id="@+id/btnTipsAndTricks"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:background="@android:color/transparent" />
 
                         <View
-                            android:id="@+id/btnFreeDiamonds"
+                            android:id="@+id/btnQuiz"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:background="@android:color/transparent" />
 
-                        <View
-                            android:id="@+id/btnSettings"
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:background="@android:color/transparent" />
                     </LinearLayout>
                 </LinearLayout>
             </FrameLayout>
