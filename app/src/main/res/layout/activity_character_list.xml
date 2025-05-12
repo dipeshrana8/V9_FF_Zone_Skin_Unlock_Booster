@@ -33,12 +33,24 @@
                 android:layout_marginVertical="@dimen/_5sdp"
                 android:minHeight="@dimen/_180sdp" />
 
+            <ImageView
+                android:id="@+id/btnMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_map_rare"
+                android:visibility="gone" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_marginHorizontal="@dimen/_5sdp"
+
+                android:layout_marginVertical="@dimen/_5sdp"
                 android:scrollbars="vertical" />
 
         </LinearLayout>

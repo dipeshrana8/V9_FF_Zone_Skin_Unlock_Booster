@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash_bg"
     android:orientation="vertical"
-    tools:context=".spalsh.A27_DiamondCalActivity">
+    tools:context=".spalsh.DiamondCalActivity">
 
     <include
         android:id="@+id/toolbarLayout"
@@ -41,7 +41,7 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginVertical="@dimen/_5sdp"
 
-                android:background="@drawable/bg_country_unselect"
+                android:background="@drawable/bg_country_select"
                 android:gravity="center"
                 android:orientation="horizontal">
 

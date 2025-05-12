@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:orientation="vertical"
+    tools:context=".spalsh.Quiz_5_Activity">
+
+    <include
+        android:id="@+id/toolbarLayout"
+        layout="@layout/toolbar_layout" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:fontFamily="@font/homeplate_font"
+                android:justificationMode="inter_word"
+                android:text="5.Which of these is a character ability type? "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/txtAns1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_country_unselect"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_10sdp"
+
+                android:text="A. Backpack size boost"
+                android:textColor="@color/white"
+
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/txtAns2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_country_unselect"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"
+
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:text="B. Teleport"
+                android:textColor="@color/white"
+
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/txtAns3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_country_unselect"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/_10sdp"
+
+                android:text="C. Jump scare"
+                android:textColor="@color/white"
+
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/txtAns4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_country_unselect"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_vertical"
+
+                android:paddingHorizontal="@dimen/_10sdp"
+
+                android:text="D. Craft mode"
+                android:textColor="@color/white"
+
+                android:textSize="@dimen/_10ssp" />
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_10sdp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_dot5" />
+
+            <FrameLayout
+                android:id="@+id/frameNative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="@dimen/_5sdp"
+
+                android:minHeight="@dimen/_180sdp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_submit" />
+
+</LinearLayout>

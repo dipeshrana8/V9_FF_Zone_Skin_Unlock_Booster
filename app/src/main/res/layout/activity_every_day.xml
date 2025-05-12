@@ -30,7 +30,6 @@
                 android:src="@drawable/img_intro2" />
 
 
-
             <FrameLayout
                 android:id="@+id/frameNative"
                 android:layout_width="match_parent"

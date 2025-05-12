@@ -2,9 +2,8 @@
     android:id="@+id/itemLayout"
     android:layout_width="match_parent"
     android:layout_height="@dimen/_45sdp"
+    android:layout_marginHorizontal="@dimen/_5sdp"
     android:layout_marginVertical="@dimen/_5sdp"
-    android:layout_marginStart="@dimen/_30sdp"
-    android:layout_marginEnd="@dimen/_minus10sdp"
     android:background="@drawable/bg_country_select"
     android:gravity="center_vertical"
     android:orientation="horizontal">
@@ -33,7 +32,7 @@
             android:layout_gravity="center"
             android:layout_marginVertical="@dimen/_5sdp"
             android:layout_marginStart="@dimen/_15sdp"
-            android:fontFamily="@font/poppins_semibold"
+            android:fontFamily="@font/poppins_medium"
             android:text="Hindi"
             android:textColor="@color/white"
             android:textSize="@dimen/_12ssp" />

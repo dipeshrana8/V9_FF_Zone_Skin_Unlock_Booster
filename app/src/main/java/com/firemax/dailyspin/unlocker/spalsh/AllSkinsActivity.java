@@ -6,9 +6,6 @@ import android.view.View;
 
 import com.firemax.dailyspin.unlocker.databinding.ActivityAllSkinBinding;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class AllSkinsActivity extends BaseActivity {
 
 
@@ -29,22 +26,31 @@ public class AllSkinsActivity extends BaseActivity {
                 binding.toolbarLayout.btnSettings
         );
         binding.toolbarLayout.btnBack.setOnClickListener(v -> myBackActivity());
-        Map<View, Class<?>> guideMap = new HashMap<>();
 
 
-        View.OnClickListener guideClickListener = v -> {
-            Class<?> target = guideMap.get(v);
-            if (target != null) {
-                startActivity(new Intent(this, target));
+        binding.btnDailyDiamondGuide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AllSkinsActivity.this, DiamondGuideActivity.class);
+                intent.putExtra("category", "Guide");
+                startActivity(intent);
             }
-        };
+        });
 
-        for (View view : guideMap.keySet()) {
-            view.setOnClickListener(guideClickListener);
-        }
         binding.btnCharacter.setOnClickListener(v -> {
             Intent intent = new Intent(AllSkinsActivity.this, CharacterListActivity.class);
             intent.putExtra("category", "Character");
+            startActivity(intent);
+        });
+        binding.btnGlooWall.setOnClickListener(v -> {
+            Intent intent = new Intent(AllSkinsActivity.this, CharacterListActivity.class);
+            intent.putExtra("category", "Gloo Wall");
+            startActivity(intent);
+        });
+
+        binding.btnParachute.setOnClickListener(v -> {
+            Intent intent = new Intent(AllSkinsActivity.this, CharacterListActivity.class);
+            intent.putExtra("category", "Parachutes");
             startActivity(intent);
         });
         binding.btnPet.setOnClickListener(v -> {
@@ -53,21 +59,6 @@ public class AllSkinsActivity extends BaseActivity {
             startActivity(intent);
         });
 
-        binding.btnWeapons.setOnClickListener(v -> {
-            Intent intent = new Intent(AllSkinsActivity.this, CharacterListActivity.class);
-            intent.putExtra("category", "Weapons");
-            startActivity(intent);
-        });
-        binding.btnParachute.setOnClickListener(v -> {
-            Intent intent = new Intent(AllSkinsActivity.this, CharacterListActivity.class);
-            intent.putExtra("category", "Parachute");
-            startActivity(intent);
-        });
-
-        binding.btnEmotes.setOnClickListener(v -> {
-            Intent intent = new Intent(AllSkinsActivity.this, EmotesActivity.class);
-            startActivity(intent);
-        });
 
         binding.btnVehicle.setOnClickListener(new View.OnClickListener() {
             @Override

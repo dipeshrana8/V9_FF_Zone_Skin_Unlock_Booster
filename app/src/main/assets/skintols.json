@@ -7,31 +7,31 @@
           "name": "Ford",
           "description": "Former navy officer with storm resistance.\nReduces damage taken outside safe zone.\nGreat for survival strategy.",
           "ability": "Iron Will: Reduces zone damage\nSea Legs: Slight HP regen in danger zone\nEndure: Bonus HP when outside safe zone",
-          "imagePath": "char/img_char_1.webp"
+          "imagePath": "char/img_char_0.webp"
         },
         {
           "name": "Ignis",
           "description": "Flame-wielding specialist.\nUnleashes a fire wall that burns enemies.\nExcellent for offensive pushes.",
           "ability": "Flame Shield: Burns Gloo Walls and enemies\nPyro Barrier: Slows down attackers\nHeat Surge: Bonus damage vs cover",
-          "imagePath": "char/img_char_2.webp"
+          "imagePath": "char/img_char_1.webp"
         },
         {
           "name": "Kairos",
-          "description": "Ex-soldier with EP-to-HP skills.\nConverts EP into HP during fights.\nGreat for sustained duels.",
+          "description": "Ex-soldier with EP-to-HP skills.\nConverts EP into HP Offensiveduring fights.\nGreat for sustained duels.",
           "ability": "Combat Surge: Fast EP to HP conversion\nTactical Boost: Temporary armor\nMilitary Core: Lower EP cost",
-          "imagePath": "char/img_char_3.webp"
+          "imagePath": "char/img_char_2.webp"
         },
         {
           "name": "Kassie",
           "description": "Tech expert with drone deployment.\nProvides surveillance and buffs.\nGreat for tactical plays.",
           "ability": "Scout Drone: Detects enemies in radius\nNano Support: Slight HP regen for team\nDrone Mark: Highlights enemy for allies",
-          "imagePath": "char/img_char_4.webp"
+          "imagePath": "char/img_char_3.webp"
         },
         {
           "name": "LUNA",
           "description": "Placeholder character.\nDetails not available in provided data.\nSuitable for various strategies.",
           "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
-          "imagePath": "char/placeholder_char.webp"
+          "imagePath": "char/img_char_4.webp"
         },
         {
           "name": "Olivia",
@@ -40,7 +40,7 @@
           "imagePath": "char/img_char_5.webp"
         },
         {
-          "name": "Orion",
+          "name": "ORION",
           "description": "Mystical warrior with shield mode.\nActivates a red energy shield.\nAvoids damage and absorbs hits.",
           "ability": "Crimson Shield: Invulnerable to damage briefly\nVoid Phase: Immune to stuns\nAbsorb: Restores HP from absorbed damage",
           "imagePath": "char/img_char_6.webp"
@@ -85,77 +85,77 @@
           "name": "Wukong",
           "description": "Monkey King with camouflage power.\nTransforms into a bush for stealth.\nGreat for ambush tactics.",
           "ability": "Camouflage: Become a bush for 15s\nSurprise Strike: Bonus damage from bush\nBush Reset: Cooldown resets on kill",
-          "imagePath": "char/img_char_14.webp"
+          "imagePath": "char/img_char_13.webp"
         }
       ]
     },
     {
-      "name": "Weapons",
+      "name": "Gloo Wall",
       "items": [
         {
           "name": "Death Incoming",
           "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
           "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
-          "imagePath": "weapon/placeholder_gloo_wall_1.webp"
+          "imagePath": "gloowall/img_gloo_0.webp"
         },
         {
           "name": "Cute Mera",
           "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
           "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
-          "imagePath": "weapon/placeholder_gloo_wall_2.webp"
+          "imagePath": "gloowall/img_gloo_1.webp"
         },
         {
           "name": "Sonic Eye",
           "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
           "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
-          "imagePath": "weapon/placeholder_gloo_wall_3.webp"
+          "imagePath": "gloowall/img_gloo_2.webp"
         },
         {
           "name": "Dragon Seal",
           "description": "Placeholder Gloo Wall variant.\nDeployable cover with unique design.\nEssential for defense.",
           "ability": "Reinforced: Increased HP\nFast Deploy: Reduced placement delay\nShield Pulse: Reflects slight damage",
-          "imagePath": "weapon/placeholder_gloo_wall_4.webp"
+          "imagePath": "gloowall/img_gloo_3.webp"
         }
       ]
     },
     {
-      "name": "Parachute",
+      "name": "Parachutes",
       "items": [
         {
           "name": "Flame Draco",
           "description": "Placeholder parachute.\nEnhances glide control with a fiery theme.\nGreat for stylish landings.",
           "ability": "Smooth Glide: Improved maneuverability\nFlame Burst: Slightly distracts enemies\nSafe Drop: Reduces landing damage",
-          "imagePath": "parachutes/placeholder_para_1.webp"
+          "imagePath": "parachutes/img_para_0.webp"
         },
         {
           "name": "Wings of the Devil",
           "description": "Placeholder parachute.\nBoosts landing speed with a dark theme.\nIdeal for rapid deployment.",
           "ability": "Thunder Drop: Faster descent speed\nShock Aura: Brief enemy disorientation on landing\nQuick Release: Faster parachute cut",
-          "imagePath": "parachutes/placeholder_para_2.webp"
+          "imagePath": "parachutes/img_para_1.webp"
         },
         {
           "name": "Superstar",
           "description": "Placeholder parachute.\nBoosts team morale with a vibrant design.\nGreat for squad coordination.",
           "ability": "Dawn Boost: Slight team morale increase\nBright Flare: Increases visibility briefly\nSoft Landing: Reduces fall damage",
-          "imagePath": "parachutes/placeholder_para_3.webp"
+          "imagePath": "parachutes/img_para_2.webp"
         },
         {
           "name": "The Maniacs",
           "description": "Placeholder parachute.\nEnhances speed with an aggressive theme.\nSuited for bold entries.",
           "ability": "Crimson Rush: Increased glide speed\nThreat Signal: Draws enemy attention\nImpact Shield: Minor damage resistance on landing",
-          "imagePath": "parachutes/placeholder_para_4.webp"
+          "imagePath": "parachutes/img_para_3.webp"
         },
         {
           "name": "Burning Lily",
           "description": "Placeholder parachute.\nImproves glide precision with a fiery design.\nPerfect for tactical drops.",
           "ability": "Aqua Flow: Enhanced glide control\nStealth Drop: Reduced detection on landing\nCool Descent: Slight stamina recovery",
-          "imagePath": "parachutes/placeholder_para_5.webp"
+          "imagePath": "parachutes/img_para_4.webp"
         },
         {
           "name": "Lapis Jubilee",
           "description": "Placeholder parachute.\nMarks landing zone with a glowing effect.\nGreat for aggressive plays.",
           "ability": "Blaze Entry: Creates small fire zone on landing\nHeat Shield: Brief damage resistance\nFlare Mark: Highlights landing spot",
-          "imagePath": "parachutes/placeholder_para_6.webp"
+          "imagePath": "parachutes/img_para_5.webp"
         }
       ]
     },
@@ -166,198 +166,97 @@
           "name": "Agent Hop",
           "description": "A futuristic rabbit with energy powers.\nHelps gather EP while moving.\nGreat for sustainability.",
           "ability": "Bounce Charge: Gain EP after movement\nSpeedy Recovery: Recovers EP faster\nHop Guard: Temporary shield",
-          "imagePath": "pet/img_pet_1.webp"
+          "imagePath": "pet/img_pet_0.webp"
         },
         {
           "name": "Arvon",
           "description": "Mystic beast with dark energy.\nEnhances armor penetration.\nIdeal for aggressive playstyles.",
           "ability": "Pierce Power: Increases armor damage\nVoid Slash: Chance to ignore defense\nShadow Burst: Short range dash",
-          "imagePath": "pet/img_pet_2.webp"
+          "imagePath": "pet/img_pet_1.webp"
         },
         {
           "name": "Beaston",
           "description": "A powerful baboon.\nBoosts throwing range.\nGood for grenade strategies.",
           "ability": "Extended Arm: Longer throw distance\nLaunch Precision: Better grenade control\nToss Fury: Faster item use",
-          "imagePath": "pet/img_pet_3.webp"
+          "imagePath": "pet/img_pet_2.webp"
         },
         {
           "name": "Colmillo",
           "description": "Fierce wolf companion.\nDrains HP from enemies.\nSupports aggressive players.",
           "ability": "Vamp Fang: Converts damage to HP\nBlood Howl: Temporarily increases damage\nPack Leader: Boosts allies’ attack",
-          "imagePath": "pet/img_pet_4.webp"
+          "imagePath": "pet/img_pet_3.webp"
         },
         {
           "name": "Dr. Beanie",
           "description": "Speedy pet with sharp reflexes.\nIncreases crouch speed.\nGreat for stealth and cover use.",
           "ability": "Slide Boost: Faster crouch movement\nSilent Step: Reduced noise\nBeanie Dash: Short quick sprint",
-          "imagePath": "pet/img_pet_5.webp"
+          "imagePath": "pet/img_pet_4.webp"
         },
         {
           "name": "Dreki",
           "description": "Small dragon with thermal vision.\nHelps spot enemies using medkits.\nIdeal for scouting.",
           "ability": "Dragon Glare: Reveal medkit users\nBurn Trail: Damage over time\nWingsight: Wider vision range",
-          "imagePath": "pet/img_pet_6.webp"
+          "imagePath": "pet/img_pet_5.webp"
         },
         {
           "name": "Falco",
           "description": "Flight bird companion.\nIncreases gliding and dive speed.\nPerfect for faster landings.",
           "ability": "Skyline Boost: Faster drop speed\nWing Spread: Wider view mid-air\nTactical Flight: Reduces fall damage",
-          "imagePath": "pet/img_pet_7.webp"
+          "imagePath": "pet/img_pet_6.webp"
         },
         {
           "name": "Fang",
           "description": "Electric tiger with a roar.\nReduces damage from explosives.\nProtects in tight battles.",
           "ability": "Blast Shield: Less explosive damage\nRoar Alert: Warns of grenades\nVoltage Armor: Extra shield layer",
-          "imagePath": "pet/img_pet_8.webp"
+          "imagePath": "pet/img_pet_7.webp"
         },
         {
           "name": "Finn",
           "description": "Fish buddy with water-based powers.\nBoosts sprint speed after damage.\nHelps with escapes.",
           "ability": "Escape Surge: Speed after damage\nFlow Armor: Reduces follow-up hits\nTidal Shift: Pushback when hit",
-          "imagePath": "pet/img_pet_9.webp"
+          "imagePath": "pet/img_pet_8.webp"
         },
         {
           "name": "Flash",
           "description": "Tortoise with a defensive shell.\nReduces damage from behind.\nHelps during retreats.",
           "ability": "Shell Guard: Backward damage reduction\nSturdy Step: Slower but tankier\nReflect Pulse: Reflects minor damage",
-          "imagePath": "pet/img_pet_10.webp"
+          "imagePath": "pet/img_pet_9.webp"
         },
         {
           "name": "Hoot",
           "description": "Wise owl with vision powers.\nReveals enemy traps and gear.\nGreat for tactical play.",
           "ability": "Trap Scan: Detects enemy devices\nNight Watch: Improves night visibility\nSilent Eyes: Enemy mark range",
-          "imagePath": "pet/img_pet_11.webp"
+          "imagePath": "pet/img_pet_10.webp"
         },
         {
           "name": "Kactus",
           "description": "Living cactus pet.\nRecovers EP when stationary.\nSuited for defensive strategies.",
           "ability": "Photosynthesis: Restore EP while idle\nThorn Defense: Reflects melee damage\nRoot Guard: Boosts shield when still",
-          "imagePath": "pet/img_pet_12.webp"
+          "imagePath": "pet/img_pet_11.webp"
         },
         {
           "name": "Ottero",
           "description": "Playful otter companion.\nBoosts recovery during water-based movement.\nSupports mobility or recovery.",
           "ability": "Aqua Glide: Faster movement in water\nSwift Heal: Slight HP regen near water\nDive Boost: Reduced fall damage near water",
-          "imagePath": "pet/img_pet_14.webp"
+          "imagePath": "pet/img_pet_12.webp"
         },
         {
           "name": "Shiba",
           "description": "Placeholder pet.\nLoyal companion with unique abilities.\nSupports various strategies.",
           "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
-          "imagePath": "pet/placeholder_pet_1.webp"
+          "imagePath": "pet/img_pet_13.webp"
         },
         {
           "name": "Spirit Fox",
           "description": "Placeholder pet.\nMystical companion with unique abilities.\nSupports various strategies.",
           "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
-          "imagePath": "pet/placeholder_pet_2.webp"
+          "imagePath": "pet/img_pet_14.webp"
         },
         {
           "name": "Yeti",
           "description": "Placeholder pet.\nPowerful companion with unique abilities.\nSupports various strategies.",
           "ability": "Placeholder Ability: Generic effect\nPlaceholder Boost: Minor stat increase\nPlaceholder Skill: Tactical advantage",
-          "imagePath": "pet/placeholder_pet_3.webp"
-        }
-      ]
-    },
-    {
-      "name": "Rare",
-      "items": [
-        {
-          "name": "Aim Fire",
-          "description": "Combat-ready stance with weapon aiming animation.\nShows precise targeting focus.\nOften used before engagements.",
-          "ability": "Quick Scope: Faster aiming animation\nTarget Lock: Highlights enemies briefly\nSteady Hands: Reduced sway effect",
-          "imagePath": "et_normal/img_normal_1.webp"
-        },
-        {
-          "name": "Applause",
-          "description": "Cheering animation clapping hands.\nCelebrates victories or good plays.\nIncreases team spirit.",
-          "ability": "Encore: Boosts nearby ally reload speed\nMotivation: Reduces skill cooldowns\nAttention Grab: Enemies may focus you",
-          "imagePath": "et_normal/img_normal_2.webp"
-        },
-        {
-          "name": "Arm Wave",
-          "description": "Energetic arm-waving greeting animation.\nUsed to signal or cheer.\nExpresses friendliness or celebration.",
-          "ability": "Wave Burst: Nearby allies gain energy\nSignal Boost: Increases visibility briefly\nHigh Morale: Boosts nearby HP regen",
-          "imagePath": "et_normal/img_normal_3.webp"
-        },
-        {
-          "name": "Bhangda",
-          "description": "Traditional celebratory dance from Punjab.\nHighly energetic and joyful.\nOften used after big wins.",
-          "ability": "Festive Boost: Increases team morale\nRhythm Flow: Slight speed increase\nCultural Pride: Reduces debuff duration",
-          "imagePath": "et_normal/img_normal_4.webp"
-        },
-        {
-          "name": "Bon Appetit",
-          "description": "Mimics enjoying a delicious meal.\nFunny and lighthearted.\nUsed in post-victory celebrations.",
-          "ability": "Feast Mode: HP regen starts\nFlavor Blast: Slight damage boost\nTable Manners: Enemy taunt chance",
-          "imagePath": "et_normal/img_normal_5.webp"
-        },
-        {
-          "name": "Bring It On",
-          "description": "Taunting stance challenging enemies.\nFull of confidence.\nUsed to provoke opponents.",
-          "ability": "Aggro Pull: Enemies target you\nConfidence Surge: Defense up\nProvoker: Reduces enemy evasion",
-          "imagePath": "et_normal/img_normal_6.webp"
-        },
-        {
-          "name": "Chicken",
-          "description": "Flapping arms and clucking like a chicken.\nMocking and humorous.\nGreat for distracting opponents.",
-          "ability": "Mock Move: Confuses enemies\nFeather Shield: Minor damage reduction\nCluck Boost: Team speed up",
-          "imagePath": "et_normal/img_normal_7.webp"
-        },
-        {
-          "name": "Dab",
-          "description": "Quick dab motion popular in dances.\nModern celebration style.\nUsed after successful plays.",
-          "ability": "Flash Style: Dodge chance up\nMomentum Gain: Movement speed up\nHype Effect: Boosts nearby attack speed",
-          "imagePath": "et_rare/img_rare_1.webp"
-        },
-        {
-          "name": "Dust Off",
-          "description": "Brushing shoulders clean motion.\nConfident victory celebration.\nRemoves negative status effects.",
-          "ability": "Clean Slate: Removes debuffs\nPride: Temporary armor increase\nShowoff: Critical hit chance boost",
-          "imagePath": "et_rare/img_rare_2.webp"
-        },
-        {
-          "name": "Greetings",
-          "description": "A respectful hand gesture or wave.\nUsed to acknowledge teammates or opponents.\nFriendly and sportsmanlike.",
-          "ability": "First Impression: Boosts ally morale\nAttention Call: Highlights your location\nPeaceful Aura: Reduces incoming aggro",
-          "imagePath": "et_rare/img_rare_3.webp"
-        },
-        {
-          "name": "I Hate U",
-          "description": "A dramatic gesture expressing dislike.\nUsed to taunt or tease enemies.\nBold and provocative.",
-          "ability": "Spite: Increases critical chance\nFury: Boosts damage briefly\nDisrespect: Reduces enemy focus",
-          "imagePath": "et_rare/img_rare_4.webp"
-        },
-        {
-          "name": "Kungfu",
-          "description": "Martial arts stance with combo moves.\nStylish and powerful.\nUsed to show off combat prowess.",
-          "ability": "Strike Boost: Increases melee damage\nFocus Mode: Brief evasion boost\nBalance: Reduces recoil",
-          "imagePath": "et_rare/img_rare_5.webp"
-        },
-        {
-          "name": "LOL",
-          "description": "Laughing animation holding stomach.\nMocking defeated opponents.\nBoosts team morale slightly.",
-          "ability": "Morale Boost: Team reload speed up\nTaunt: Increased enemy aggression\nJoyful: Health regen during animation",
-          "imagePath": "et_rare/img_rare_6.webp"
-        },
-        {
-          "name": "Make It Rain",
-          "description": "Throwing money in the air.\nFlashy and showy animation.\nCelebrates big wins or high scores.",
-          "ability": "Wealth Boost: Temporary gold gain\nAttraction: Enemies drawn to you\nHigh Roller: Increases item drop chance",
-          "imagePath": "et_rare/img_rare_7.webp"
-        },
-        {
-          "name": "Top DJ",
-          "description": "Scratching records on turntables.\nParty vibe with beats.\nUsed to hype up the team.",
-          "ability": "Beat Drop: Boosts ally attack speed\nSound Shield: Reduces debuff duration\nRhythm Flow: Short cooldown reduction",
-          "imagePath": "et_special/img_super_et_7.webp"
-        },
-        {
-          "name": "Top Scorer",
-          "description": "Victory gesture holding a trophy.\nCelebrates being MVP or top player.\nInspires teammates.",
-          "ability": "Inspire: Team damage boost\nPride Shield: Minor armor buff\nSpotlight: Slightly increases visibility",
-          "imagePath": "et_special/img_super_et_8.webp"
+          "imagePath": "pet/img_pet_15.webp"
         }
       ]
     },
@@ -368,50 +267,152 @@
           "name": "Pickup Truck",
           "description": "Durable vehicle for squad transport.\nHigh capacity and defense.\nIdeal for team mobility.",
           "ability": "Armored Frame: Increased vehicle HP\nSquad Boost: Slight team HP regen\nRough Terrain: Improved handling",
-          "imagePath": "vehicle/img_vehicle_1.webp"
+          "imagePath": "vehicle/img_vehicle_0.webp"
         },
         {
           "name": "Monster Truck",
           "description": "Heavy-duty vehicle with rugged design.\nHigh durability and terrain handling.\nGreat for rough landscapes.",
           "ability": "Crush Guard: High damage resistance\nTerrain Master: No speed loss off-road\nShock Absorb: Reduces passenger damage",
-          "imagePath": "vehicle/img_vehicle_2.webp"
+          "imagePath": "vehicle/img_vehicle_1.webp"
         },
         {
           "name": "Speed Car",
           "description": "Sleek car built for speed.\nBoosts sprint speed.\nSuited for quick escapes.",
           "ability": "Nitro Boost: Temporary speed surge\nAerodynamic: Faster base speed\nQuick Turn: Improved handling",
-          "imagePath": "vehicle/img_vehicle_3.webp"
+          "imagePath": "vehicle/img_vehicle_2.webp"
         },
         {
           "name": "Tuk Tuk",
           "description": "Compact vehicle for quick transport.\nAgile with moderate capacity.\nPerfect for urban areas.",
           "ability": "Nimble Drive: Enhanced maneuverability\nCompact Frame: Reduced detection\nFast Exit: Quicker passenger dismount",
-          "imagePath": "vehicle/img_vehicle_4.webp"
+          "imagePath": "vehicle/img_vehicle_3.webp"
         },
         {
           "name": "Jeep",
           "description": "Versatile vehicle for all terrains.\nBalanced speed and durability.\nGreat for squad strategies.",
           "ability": "All-Terrain: Balanced off-road speed\nReinforced: Moderate damage resistance\nTeam Sync: Slight team stamina regen",
-          "imagePath": "vehicle/img_vehicle_5.webp"
+          "imagePath": "vehicle/img_vehicle_4.webp"
         },
         {
           "name": "Sport Bike",
           "description": "Fast motorcycle for solo travel.\nHigh speed and agility.\nIdeal for rapid repositioning.",
           "ability": "Speed Surge: High sprint speed\nLean Control: Sharp turning\nQuick Mount: Faster entry/exit",
-          "imagePath": "vehicle/img_vehicle_6.webp"
+          "imagePath": "vehicle/img_vehicle_5.webp"
         },
         {
           "name": "Sport Car",
           "description": "High-performance car for rapid movement.\nFast with low defense.\nSuited for aggressive plays.",
           "ability": "Overdrive: Extreme speed boost\nSleek Design: Reduced drag\nDrift Master: Enhanced cornering",
-          "imagePath": "vehicle/img_vehicle_7.webp"
+          "imagePath": "vehicle/img_vehicle_6.webp"
         },
         {
           "name": "Vintage Car",
           "description": "Placeholder vehicle.\nClassic design with moderate speed and durability.\nSuitable for stylish transport.",
           "ability": "Classic Frame: Moderate vehicle HP\nSmooth Ride: Improved handling\nRetro Boost: Slight speed increase",
-          "imagePath": "vehicle/placeholder_vehicle_1.webp"
+          "imagePath": "vehicle/img_vehicle_7.webp"
         }
+      ]
+    },
+    {
+      "name": "Rare",
+      "items": [
+        {
+          "name": "Aim Fire",
+          "description": "Combat-ready stance with weapon aiming animation.\nShows precise targeting focus.\nOften used before engagements.",
+          "ability": "Quick Scope: Faster aiming animation\nTarget Lock: Highlights enemies briefly\nSteady Hands: Reduced sway effect",
+          "imagePath": "et_rare/img_rare_0.webp"
+        },
+        {
+          "name": "Applause",
+          "description": "Cheering animation clapping hands.\nCelebrates victories or good plays.\nIncreases team spirit.",
+          "ability": "Encore: Boosts nearby ally reload speed\nMotivation: Reduces skill cooldowns\nAttention Grab: Enemies may focus you",
+          "imagePath": "et_rare/img_rare_1.webp"
+        },
+        {
+          "name": "Arm Wave",
+          "description": "Energetic arm-waving greeting animation.\nUsed to signal or cheer.\nExpresses friendliness or celebration.",
+          "ability": "Wave Burst: Nearby allies gain energy\nSignal Boost: Increases visibility briefly\nHigh Morale: Boosts nearby HP regen",
+          "imagePath": "et_rare/img_rare_2.webp"
+        },
+        {
+          "name": "Bhangda",
+          "description": "Traditional celebratory dance from Punjab.\nHighly energetic and joyful.\nOften used after big wins.",
+          "ability": "Festive Boost: Increases team morale\nRhythm Flow: Slight speed increase\nCultural Pride: Reduces debuff duration",
+          "imagePath": "et_rare/img_rare_3.webp"
+        },
+        {
+          "name": "Bon Appetit",
+          "description": "Mimics enjoying a delicious meal.\nFunny and lighthearted.\nUsed in post-victory celebrations.",
+          "ability": "Feast Mode: HP regen starts\nFlavor Blast: Slight damage boost\nTable Manners: Enemy taunt chance",
+          "imagePath": "et_rare/img_rare_4.webp"
+        },
+        {
+          "name": "Bring It On",
+          "description": "Taunting stance challenging enemies.\nFull of confidence.\nUsed to provoke opponents.",
+          "ability": "Aggro Pull: Enemies target you\nConfidence Surge: Defense up\nProvoker: Reduces enemy evasion",
+          "imagePath": "et_rare/img_rare_5.webp"
+        },
+        {
+          "name": "Chicken",
+          "description": "Flapping arms and clucking like a chicken.\nMocking and humorous.\nGreat for distracting opponents.",
+          "ability": "Mock Move: Confuses enemies\nFeather Shield: Minor damage reduction\nCluck Boost: Team speed up",
+          "imagePath": "et_rare/img_rare_6.webp"
+        },
+        {
+          "name": "Dab",
+          "description": "Quick dab motion popular in dances.\nModern celebration style.\nUsed after successful plays.",
+          "ability": "Flash Style: Dodge chance up\nMomentum Gain: Movement speed up\nHype Effect: Boosts nearby attack speed",
+          "imagePath": "et_rare/img_rare_7.webp"
+        },
+        {
+          "name": "Dust Off",
+          "description": "Brushing shoulders clean motion.\nConfident victory celebration.\nRemoves negative status effects.",
+          "ability": "Clean Slate: Removes debuffs\nPride: Temporary armor increase\nShowoff: Critical hit chance boost",
+          "imagePath": "et_rare/img_rare_8.webp"
+        },
+        {
+          "name": "Greetings",
+          "description": "A respectful hand gesture or wave.\nUsed to acknowledge teammates or opponents.\nFriendly and sportsmanlike.",
+          "ability": "First Impression: Boosts ally morale\nAttention Call: Highlights your location\nPeaceful Aura: Reduces incoming aggro",
+          "imagePath": "et_rare/img_rare_9.webp"
+        },
+        {
+          "name": "I Hate U",
+          "description": "A dramatic gesture expressing dislike.\nUsed to taunt or tease enemies.\nBold and provocative.",
+          "ability": "Spite: Increases critical chance\nFury: Boosts damage briefly\nDisrespect: Reduces enemy focus",
+          "imagePath": "et_rare/img_rare_10.webp"
+        },
+        {
+          "name": "Kungfu",
+          "description": "Martial arts stance with combo moves.\nStylish and powerful.\nUsed to show off combat prowess.",
+          "ability": "Strike Boost: Increases melee damage\nFocus Mode: Brief evasion boost\nBalance: Reduces recoil",
+          "imagePath": "et_rare/img_rare_11.webp"
+        },
+        {
+          "name": "LOL",
+          "description": "Laughing animation holding stomach.\nMocking defeated opponents.\nBoosts team morale slightly.",
+          "ability": "Morale Boost: Team reload speed up\nTaunt: Increased enemy aggression\nJoyful: Health regen during animation",
+          "imagePath": "et_rare/img_rare_12.webp"
+        },
+        {
+          "name": "Make It Rain",
+          "description": "Throwing money in the air.\nFlashy and showy animation.\nCelebrates big wins or high scores.",
+          "ability": "Wealth Boost: Temporary gold gain\nAttraction: Enemies drawn to you\nHigh Roller: Increases item drop chance",
+          "imagePath": "et_rare/img_rare_13.webp"
+        },
+        {
+          "name": "Top DJ",
+          "description": "Scratching records on turntables.\nParty vibe with beats.\nUsed to hype up the team.",
+          "ability": "Beat Drop: Boosts ally attack speed\nSound Shield: Reduces debuff duration\nRhythm Flow: Short cooldown reduction",
+          "imagePath": "et_rare/img_rare_14.webp"
+        },
+        {
+          "name": "Top Scorer",
+          "description": "Victory gesture holding a trophy.\nCelebrates being MVP or top player.\nInspires teammates.",
+          "ability": "Inspire: Team damage boost\nPride Shield: Minor armor buff\nSpotlight: Slightly increases visibility",
+          "imagePath": "et_rare/img_rare_15.webp"
+        }
+
       ]
     },
     {

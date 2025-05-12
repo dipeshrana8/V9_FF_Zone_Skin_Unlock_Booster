@@ -19,7 +19,7 @@
             android:layout_width="@dimen/_30sdp"
             android:layout_height="@dimen/_30sdp"
             android:layout_gravity="center"
-            android:padding="@dimen/_2sdp"
+            android:padding="@dimen/_5sdp"
             android:src="@drawable/img_back" />
 
         <TextView
@@ -40,7 +40,7 @@
             android:singleLine="true"
             android:text="Select Game mode"
             android:textColor="@color/white"
-            android:textSize="@dimen/_18ssp" />
+            android:textSize="@dimen/_15ssp" />
 
 
         <ImageView

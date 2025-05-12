@@ -15,7 +15,7 @@ public class A6_StartApp extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        toolbarHeaderText = "Setting";
+        toolbarHeaderText = "Get Diamonds Guide";
 
 
         super.onCreate(savedInstanceState);

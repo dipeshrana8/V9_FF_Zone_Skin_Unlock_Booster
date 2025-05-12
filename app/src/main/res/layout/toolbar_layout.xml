@@ -33,7 +33,7 @@
         android:singleLine="true"
         android:text="@string/app_name"
         android:textColor="@color/white"
-        android:textSize="@dimen/_18ssp" />
+        android:textSize="@dimen/_15ssp" />
 
 
     <ImageView

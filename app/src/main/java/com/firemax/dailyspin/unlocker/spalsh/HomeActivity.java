@@ -15,7 +15,7 @@ public class HomeActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        toolbarHeaderText = "FFF Skin Guide";
+        toolbarHeaderText = "Main Hub";
         showBackButton = false;
 
         super.onCreate(savedInstanceState);
@@ -27,11 +27,11 @@ public class HomeActivity extends BaseActivity {
 
         Map<View, Class<?>> navMap = new HashMap<>();
 
-        navMap.put(binding.btnGetDiamond, DiamondGuideActivity.class);
-        navMap.put(binding.btnAllSkin, AllSkinsActivity.class);
-        navMap.put(binding.btnCalculator, BasicCalActivity.class);
-        navMap.put(binding.btnFreeDiamonds, FreeDiamondsActivity.class);
-        navMap.put(binding.btnSettings, A6_StartApp.class);
+        navMap.put(binding.btnDiamondGuide, AllSkinsActivity.class);
+        navMap.put(binding.btnFreeDiamond, SpinActivity.class);
+        navMap.put(binding.btnCalculator, DiamondCalActivity.class);
+
+        navMap.put(binding.btnQuiz, Quiz_1_Activity.class);
 
 
         Map<View, Runnable> actionMap = new HashMap<>();
@@ -56,17 +56,18 @@ public class HomeActivity extends BaseActivity {
             view.setOnClickListener(smartClick);
         }
 
-        binding.btnBundle.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, CharacterListActivity.class);
-            intent.putExtra("category", "Bundles");
-            startActivity(intent);
-        });
-        binding.btnMap.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, CharacterListActivity.class);
-            intent.putExtra("category", "Maps");
-            startActivity(intent);
-        });
 
+        binding.btnRareEmotes.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, CharacterListActivity.class);
+            intent.putExtra("category", "Rare");
+            startActivity(intent);
+        });
+        binding.btnTipsAndTricks.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, DiamondGuideActivity.class);
+            intent.putExtra("category", "Tips");
+            startActivity(intent);
+
+        });
 
     }
 

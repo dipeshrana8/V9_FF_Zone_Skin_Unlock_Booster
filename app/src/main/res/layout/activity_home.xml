@@ -24,7 +24,7 @@
         android:singleLine="true"
         android:text="Main HUb"
         android:textColor="@color/white"
-        android:textSize="@dimen/_18ssp" />
+        android:textSize="@dimen/_15ssp" />
 
     <ScrollView
         android:layout_width="match_parent"

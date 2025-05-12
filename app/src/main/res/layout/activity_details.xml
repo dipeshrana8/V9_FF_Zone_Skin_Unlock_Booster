@@ -116,7 +116,7 @@
         android:layout_marginHorizontal="@dimen/_10sdp"
         android:layout_marginVertical="@dimen/_10sdp"
         android:adjustViewBounds="true"
-        android:src="@drawable/img_claim" />
+        android:src="@drawable/img_claim_it" />
 
 
 </LinearLayout>

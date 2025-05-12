@@ -27,16 +27,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="@dimen/_20sdp"
-            android:fontFamily="@font/poppins_semibold"
+            android:fontFamily="@font/poppins_regular"
             android:gravity="center"
             android:text="Buying This Much Diamonds Will Cost\n 0.6250 Dollars"
-            android:textColor="@color/white"
+            android:textColor="#C0C0C0"
             android:textSize="@dimen/_12ssp" />
 
         <View
             android:id="@+id/btnOkay"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_45sdp"
+            android:layout_height="@dimen/_40sdp"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="@dimen/_20sdp"
 

@@ -54,7 +54,7 @@ public class SelectTimeActivity extends BaseActivity {
             public void onClick(View v) {
 
 
-                View dialogView = LayoutInflater.from(SelectTimeActivity.this).inflate(R.layout.dialog_active, null);
+                View dialogView = LayoutInflater.from(SelectTimeActivity.this).inflate(R.layout.dialog_cong1, null);
                 AlertDialog dialog = new AlertDialog.Builder(SelectTimeActivity.this)
                         .setView(dialogView)
                         .create();

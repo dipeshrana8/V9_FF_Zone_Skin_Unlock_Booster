@@ -1,8 +1,12 @@
 package com.firemax.dailyspin.unlocker.spalsh;
 
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,13 +24,14 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class CharacterListActivity extends BaseActivity {
+    String category = "";
     private ActivityCharacterListBinding binding;
     private ArrayList<Character> characterList;
     private CharacterAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        String category = getIntent().getStringExtra("category");
+        category = getIntent().getStringExtra("category");
         toolbarHeaderText = category;
         showSettings = true;
         super.onCreate(savedInstanceState);
@@ -37,8 +42,20 @@ public class CharacterListActivity extends BaseActivity {
 
         setupToolbar(binding.toolbarLayout.headerTitle, binding.toolbarLayout.btnBack, binding.toolbarLayout.btnSettings);
 
+
         characterList = loadCharactersFromJson(category);
         setupRecyclerView();
+
+        binding.btnMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                binding.btnMap.setVisibility(GONE);
+                characterList = loadCharactersFromJson("Maps");
+                setupRecyclerView();
+
+            }
+        });
     }
 
     private ArrayList<Character> loadCharactersFromJson(String category) {
@@ -105,5 +122,15 @@ public class CharacterListActivity extends BaseActivity {
     @Override
     public void onBackPressed() {
         myBackActivity();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (category.equals("Rare")) {
+            binding.btnMap.setVisibility(VISIBLE);
+        } else {
+            binding.btnMap.setVisibility(GONE);
+        }
     }
 }

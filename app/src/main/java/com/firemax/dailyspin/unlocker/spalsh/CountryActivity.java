@@ -45,7 +45,7 @@ public class CountryActivity extends BaseActivity {
         binding.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CountryActivity.this, HomeActivity.class);
+                Intent intent = new Intent(CountryActivity.this, A6_StartApp.class);
                 startActivity(intent);
             }
         });
