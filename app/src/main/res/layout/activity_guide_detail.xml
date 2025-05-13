@@ -21,18 +21,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_10sdp"
-            android:background="@drawable/bg_country_select"
-            android:orientation="vertical"
-            android:padding="@dimen/_10sdp">
+            android:orientation="vertical">
 
+            <FrameLayout
+                android:id="@+id/frameNative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:minHeight="@dimen/_180sdp" />
 
             <TextView
                 android:id="@+id/textViewDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:background="@drawable/bg_country_select"
                 android:fontFamily="@font/poppins_regular"
                 android:justificationMode="inter_word"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/app_name"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/_12ssp" />
         </LinearLayout>
